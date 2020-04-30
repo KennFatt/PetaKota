@@ -1,3 +1,6 @@
+# Exlcude API Key exposure
+app/src/debug/res/*
+
 # Built application files
 *.apk
 *.aar
