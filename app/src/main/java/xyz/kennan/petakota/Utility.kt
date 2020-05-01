@@ -12,8 +12,12 @@ class Utility {
          * Since my Logcat is always empty, Toast is the best and easy way to
          *  debugging.
          */
-        public fun d(ctx: Context, m: String) {
+        fun d(ctx: Context, m: String) {
             Toast.makeText(ctx, m, Toast.LENGTH_SHORT).show()
+        }
+
+        fun milliseconds(): Long {
+            return System.currentTimeMillis() / 1000
         }
     }
 }
